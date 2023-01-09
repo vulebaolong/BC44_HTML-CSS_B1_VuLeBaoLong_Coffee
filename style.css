@@ -1,0 +1,105 @@
+hr {
+    border: 2px solid rgb(128, 128, 128);
+    width: 50%;
+    text-align: center;
+}
+
+/* ====================================================
+HEADER
+==================================================== */
+
+.header h1 {
+    background-color: #394a59;
+    color: white;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header li {
+    display: inline;
+}
+
+/* ====================================================
+ABOUT
+==================================================== */
+
+h2 {
+    color: #996633;
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* ====================================================
+SPECIAL ITEMS
+==================================================== */
+
+.list_1 {
+    list-style: circle;
+}
+
+.list_1 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.list_2 {
+    list-style: upper-roman;
+}
+
+.list_2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ====================================================
+TABLE
+==================================================== */
+
+table {
+    width: 40%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px groove black;
+}
+
+tbody > tr:nth-child(1) > td:nth-child(1) {
+    background-image: url(./img/chilling-cafe-13.jpg);
+    color: white;
+}
+
+tbody > tr:nth-child(5) > td:nth-child(1) {
+    background-image: url(./img/chilling-cafe-11.jpg);
+    color: white;
+}
+
+th {
+    text-transform: capitalize;
+    background-color: #c4cdd6;
+}
+
+tr > * {
+    padding: 10px 20px;
+}
+
+/* ====================================================
+FOOOTER
+==================================================== */
+
+footer p {
+    text-align: center;
+    margin: auto;
+}
